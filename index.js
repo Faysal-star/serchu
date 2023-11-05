@@ -5,7 +5,7 @@ $("#form").submit(function(e){
 
     let result = ''
 
-    var API_KEY = '5d44ace3287b182e4b32c98b6f550060'
+    var API_KEY = 'dbc4092907c6fb1723988e9a32fbcd93'
     var url = 'http://api.serpstack.com/search?access_key=' +API_KEY + "&query=" + query
     console.log(url)
 
